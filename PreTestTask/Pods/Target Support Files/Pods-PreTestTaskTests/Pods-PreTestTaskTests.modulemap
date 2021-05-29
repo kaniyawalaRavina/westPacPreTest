@@ -1,0 +1,6 @@
+framework module Pods_PreTestTaskTests {
+  umbrella header "Pods-PreTestTaskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

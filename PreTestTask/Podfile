@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PreTestTask' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PreTestTask
+pod 'Alamofire', '~> 4.7'
+   pod 'ObjectMapper'
+   pod 'SVProgressHUD'
+
+
+  target 'PreTestTaskTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
