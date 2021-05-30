@@ -143,6 +143,8 @@
 		707920C826630224007BBB54 = {
 			isa = PBXGroup;
 			children = (
+				707920D426630224007BBB54 /* AppDelegate.swift */,
+				707920DF26630226007BBB54 /* LaunchScreen.storyboard */,
 				707920D326630224007BBB54 /* PreTestTask */,
 				707920EA26630226007BBB54 /* PreTestTaskTests */,
 				707920F526630226007BBB54 /* PreTestTaskUITests */,
@@ -165,11 +167,9 @@
 		707920D326630224007BBB54 /* PreTestTask */ = {
 			isa = PBXGroup;
 			children = (
-				70792299266310EF007BBB54 /* Posts */,
-				707920D426630224007BBB54 /* AppDelegate.swift */,
 				707921042663034E007BBB54 /* WebServices */,
+				70792299266310EF007BBB54 /* Posts */,
 				707920DD26630226007BBB54 /* Assets.xcassets */,
-				707920DF26630226007BBB54 /* LaunchScreen.storyboard */,
 				707920E226630226007BBB54 /* Info.plist */,
 			);
 			path = PreTestTask;
@@ -228,18 +228,10 @@
 		70792299266310EF007BBB54 /* Posts */ = {
 			isa = PBXGroup;
 			children = (
-				7079229A266310FB007BBB54 /* PostDetails */,
-			);
-			path = Posts;
-			sourceTree = "<group>";
-		};
-		7079229A266310FB007BBB54 /* PostDetails */ = {
-			isa = PBXGroup;
-			children = (
 				707922B826631251007BBB54 /* UserDetails */,
 				7079229B26631107007BBB54 /* Post */,
 			);
-			path = PostDetails;
+			path = Posts;
 			sourceTree = "<group>";
 		};
 		7079229B26631107007BBB54 /* Post */ = {
