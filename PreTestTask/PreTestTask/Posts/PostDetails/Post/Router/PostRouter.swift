@@ -1,0 +1,21 @@
+//
+//  PostRouter.swift
+//  PreTestTask
+//
+//  Created by Riya Kaniyawala on 30/05/21.
+//
+
+import UIKit
+
+class PostRouter {
+    
+    //MARK: - Variable & Constant
+    weak var viewController : UIViewController?
+}
+
+//MARK:- Router Input Method
+extension PostRouter : PostRouterInput {
+    func openPostDetailsModule(post: Post?) {
+        //Navigate
+    }
+}

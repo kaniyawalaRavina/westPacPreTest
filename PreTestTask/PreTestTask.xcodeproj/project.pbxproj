@@ -19,6 +19,17 @@
 		707921122663034E007BBB54 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7079210A2663034E007BBB54 /* Geo.swift */; };
 		707921132663034E007BBB54 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7079210C2663034E007BBB54 /* Constant.swift */; };
 		707921142663034E007BBB54 /* AlamofireHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7079210D2663034E007BBB54 /* AlamofireHelper.swift */; };
+		707922AD26631107007BBB54 /* Post.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7079229C26631107007BBB54 /* Post.strings */; };
+		707922AE26631107007BBB54 /* PostPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7079229E26631107007BBB54 /* PostPresenter.swift */; };
+		707922AF26631107007BBB54 /* Post.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707922A026631107007BBB54 /* Post.storyboard */; };
+		707922B026631107007BBB54 /* PostTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922A326631107007BBB54 /* PostTableCell.swift */; };
+		707922B126631107007BBB54 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922A426631107007BBB54 /* PostVC.swift */; };
+		707922B226631107007BBB54 /* PostIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922A526631107007BBB54 /* PostIO.swift */; };
+		707922B326631107007BBB54 /* PostInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922A726631107007BBB54 /* PostInteractor.swift */; };
+		707922B426631107007BBB54 /* PostInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922A826631107007BBB54 /* PostInteractorIO.swift */; };
+		707922B526631107007BBB54 /* PostFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922A926631107007BBB54 /* PostFactory.swift */; };
+		707922B626631107007BBB54 /* PostRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922AB26631107007BBB54 /* PostRouterInput.swift */; };
+		707922B726631107007BBB54 /* PostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922AC26631107007BBB54 /* PostRouter.swift */; };
 		A0A0C31DC1F7EFA6803E31C2 /* Pods_PreTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EA8221C9FE9EA49F711410 /* Pods_PreTestTask.framework */; };
 		D9B96C439AB5531669036741 /* Pods_PreTestTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70813679199065541104B761 /* Pods_PreTestTaskTests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +72,17 @@
 		7079210A2663034E007BBB54 /* Geo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
 		7079210C2663034E007BBB54 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		7079210D2663034E007BBB54 /* AlamofireHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireHelper.swift; sourceTree = "<group>"; };
+		7079229C26631107007BBB54 /* Post.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Post.strings; sourceTree = "<group>"; };
+		7079229E26631107007BBB54 /* PostPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostPresenter.swift; sourceTree = "<group>"; };
+		707922A126631107007BBB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Post.storyboard; sourceTree = "<group>"; };
+		707922A326631107007BBB54 /* PostTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableCell.swift; sourceTree = "<group>"; };
+		707922A426631107007BBB54 /* PostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		707922A526631107007BBB54 /* PostIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostIO.swift; sourceTree = "<group>"; };
+		707922A726631107007BBB54 /* PostInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostInteractor.swift; sourceTree = "<group>"; };
+		707922A826631107007BBB54 /* PostInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostInteractorIO.swift; sourceTree = "<group>"; };
+		707922A926631107007BBB54 /* PostFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFactory.swift; sourceTree = "<group>"; };
+		707922AB26631107007BBB54 /* PostRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRouterInput.swift; sourceTree = "<group>"; };
+		707922AC26631107007BBB54 /* PostRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRouter.swift; sourceTree = "<group>"; };
 		70813679199065541104B761 /* Pods_PreTestTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreTestTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F8C194A316F8EDB5E61556 /* Pods-PreTestTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreTestTaskTests.release.xcconfig"; path = "Target Support Files/Pods-PreTestTaskTests/Pods-PreTestTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		CEA1D4A4D658AC48FB3B9A85 /* Pods-PreTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreTestTask.release.xcconfig"; path = "Target Support Files/Pods-PreTestTask/Pods-PreTestTask.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +141,7 @@
 		707920D326630224007BBB54 /* PreTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				70792299266310EF007BBB54 /* Posts */,
 				707920D426630224007BBB54 /* AppDelegate.swift */,
 				707921042663034E007BBB54 /* WebServices */,
 				707920DD26630226007BBB54 /* Assets.xcassets */,
@@ -174,6 +197,80 @@
 				7079210D2663034E007BBB54 /* AlamofireHelper.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		70792299266310EF007BBB54 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				7079229A266310FB007BBB54 /* PostDetails */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		7079229A266310FB007BBB54 /* PostDetails */ = {
+			isa = PBXGroup;
+			children = (
+				7079229B26631107007BBB54 /* Post */,
+			);
+			path = PostDetails;
+			sourceTree = "<group>";
+		};
+		7079229B26631107007BBB54 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				7079229C26631107007BBB54 /* Post.strings */,
+				7079229D26631107007BBB54 /* Presenter */,
+				7079229F26631107007BBB54 /* View */,
+				707922A626631107007BBB54 /* Interactor */,
+				707922A926631107007BBB54 /* PostFactory.swift */,
+				707922AA26631107007BBB54 /* Router */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		7079229D26631107007BBB54 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7079229E26631107007BBB54 /* PostPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7079229F26631107007BBB54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				707922A026631107007BBB54 /* Post.storyboard */,
+				707922A226631107007BBB54 /* Cell */,
+				707922A426631107007BBB54 /* PostVC.swift */,
+				707922A526631107007BBB54 /* PostIO.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		707922A226631107007BBB54 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				707922A326631107007BBB54 /* PostTableCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		707922A626631107007BBB54 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				707922A726631107007BBB54 /* PostInteractor.swift */,
+				707922A826631107007BBB54 /* PostInteractorIO.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		707922AA26631107007BBB54 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				707922AB26631107007BBB54 /* PostRouterInput.swift */,
+				707922AC26631107007BBB54 /* PostRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		9492222BCBBFCF949E0B8A39 /* Frameworks */ = {
@@ -302,8 +399,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707922AF26631107007BBB54 /* Post.storyboard in Resources */,
 				707920E126630226007BBB54 /* LaunchScreen.storyboard in Resources */,
 				707920DE26630226007BBB54 /* Assets.xcassets in Resources */,
+				707922AD26631107007BBB54 /* Post.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,14 +491,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707922B026631107007BBB54 /* PostTableCell.swift in Sources */,
 				707921142663034E007BBB54 /* AlamofireHelper.swift in Sources */,
 				707920D526630224007BBB54 /* AppDelegate.swift in Sources */,
+				707922AE26631107007BBB54 /* PostPresenter.swift in Sources */,
+				707922B426631107007BBB54 /* PostInteractorIO.swift in Sources */,
 				707921132663034E007BBB54 /* Constant.swift in Sources */,
 				7079210E2663034E007BBB54 /* Address.swift in Sources */,
+				707922B626631107007BBB54 /* PostRouterInput.swift in Sources */,
 				707921102663034E007BBB54 /* Post.swift in Sources */,
 				707921112663034E007BBB54 /* Company.swift in Sources */,
 				7079210F2663034E007BBB54 /* User.swift in Sources */,
+				707922B226631107007BBB54 /* PostIO.swift in Sources */,
+				707922B726631107007BBB54 /* PostRouter.swift in Sources */,
+				707922B326631107007BBB54 /* PostInteractor.swift in Sources */,
+				707922B526631107007BBB54 /* PostFactory.swift in Sources */,
 				707921122663034E007BBB54 /* Geo.swift in Sources */,
+				707922B126631107007BBB54 /* PostVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +549,14 @@
 				707920E026630226007BBB54 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		707922A026631107007BBB54 /* Post.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707922A126631107007BBB54 /* Base */,
+			);
+			name = Post.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
