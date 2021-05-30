@@ -40,6 +40,8 @@
 		707922CF26631251007BBB54 /* PostDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922C426631251007BBB54 /* PostDetailsInteractor.swift */; };
 		707922D026631251007BBB54 /* PostDetailsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922C626631251007BBB54 /* PostDetailsRouterInput.swift */; };
 		707922D126631251007BBB54 /* PostDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922C726631251007BBB54 /* PostDetailsRouter.swift */; };
+		707922D32663185B007BBB54 /* PostInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922D22663185B007BBB54 /* PostInteractorTests.swift */; };
+		707922D52663187B007BBB54 /* UserInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922D42663187A007BBB54 /* UserInteractorTests.swift */; };
 		A0A0C31DC1F7EFA6803E31C2 /* Pods_PreTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EA8221C9FE9EA49F711410 /* Pods_PreTestTask.framework */; };
 		D9B96C439AB5531669036741 /* Pods_PreTestTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70813679199065541104B761 /* Pods_PreTestTaskTests.framework */; };
 /* End PBXBuildFile section */
@@ -103,6 +105,8 @@
 		707922C426631251007BBB54 /* PostDetailsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsInteractor.swift; sourceTree = "<group>"; };
 		707922C626631251007BBB54 /* PostDetailsRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsRouterInput.swift; sourceTree = "<group>"; };
 		707922C726631251007BBB54 /* PostDetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsRouter.swift; sourceTree = "<group>"; };
+		707922D22663185B007BBB54 /* PostInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostInteractorTests.swift; sourceTree = "<group>"; };
+		707922D42663187A007BBB54 /* UserInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInteractorTests.swift; sourceTree = "<group>"; };
 		70813679199065541104B761 /* Pods_PreTestTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreTestTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F8C194A316F8EDB5E61556 /* Pods-PreTestTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreTestTaskTests.release.xcconfig"; path = "Target Support Files/Pods-PreTestTaskTests/Pods-PreTestTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		CEA1D4A4D658AC48FB3B9A85 /* Pods-PreTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreTestTask.release.xcconfig"; path = "Target Support Files/Pods-PreTestTask/Pods-PreTestTask.release.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +179,8 @@
 			isa = PBXGroup;
 			children = (
 				707920EB26630226007BBB54 /* PreTestTaskTests.swift */,
+				707922D22663185B007BBB54 /* PostInteractorTests.swift */,
+				707922D42663187A007BBB54 /* UserInteractorTests.swift */,
 				707920ED26630226007BBB54 /* Info.plist */,
 			);
 			path = PreTestTaskTests;
@@ -595,6 +601,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707922D32663185B007BBB54 /* PostInteractorTests.swift in Sources */,
+				707922D52663187B007BBB54 /* UserInteractorTests.swift in Sources */,
 				707920EC26630226007BBB54 /* PreTestTaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
