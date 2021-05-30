@@ -168,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				707921042663034E007BBB54 /* WebServices */,
+				707922B826631251007BBB54 /* UserDetails */,
 				70792299266310EF007BBB54 /* Posts */,
 				707920DD26630226007BBB54 /* Assets.xcassets */,
 				707920E226630226007BBB54 /* Info.plist */,
@@ -198,7 +199,6 @@
 		707921042663034E007BBB54 /* WebServices */ = {
 			isa = PBXGroup;
 			children = (
-				707922B826631251007BBB54 /* UserDetails */,
 				707921052663034E007BBB54 /* Models */,
 				7079210B2663034E007BBB54 /* Services */,
 			);
