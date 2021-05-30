@@ -17,5 +17,7 @@ class PostRouter {
 extension PostRouter : PostRouterInput {
     func openPostDetailsModule(post: Post?) {
         //Navigate
+        let vc = PostDetailsFactory.shared.createModule(post: post)
+        self.viewController?.navigationController?.pushViewController(vc, animated: true)
     }
 }

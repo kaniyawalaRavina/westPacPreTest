@@ -30,6 +30,16 @@
 		707922B526631107007BBB54 /* PostFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922A926631107007BBB54 /* PostFactory.swift */; };
 		707922B626631107007BBB54 /* PostRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922AB26631107007BBB54 /* PostRouterInput.swift */; };
 		707922B726631107007BBB54 /* PostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922AC26631107007BBB54 /* PostRouter.swift */; };
+		707922C826631251007BBB54 /* PostDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922BA26631251007BBB54 /* PostDetailsPresenter.swift */; };
+		707922C926631251007BBB54 /* PostDetails.strings in Resources */ = {isa = PBXBuildFile; fileRef = 707922BB26631251007BBB54 /* PostDetails.strings */; };
+		707922CA26631251007BBB54 /* PostDetailsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922BC26631251007BBB54 /* PostDetailsFactory.swift */; };
+		707922CB26631251007BBB54 /* PostDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707922BE26631251007BBB54 /* PostDetails.storyboard */; };
+		707922CC26631251007BBB54 /* PostDetailsIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922C026631251007BBB54 /* PostDetailsIO.swift */; };
+		707922CD26631251007BBB54 /* PostDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922C126631251007BBB54 /* PostDetailsVC.swift */; };
+		707922CE26631251007BBB54 /* PostDetailsInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922C326631251007BBB54 /* PostDetailsInteractorIO.swift */; };
+		707922CF26631251007BBB54 /* PostDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922C426631251007BBB54 /* PostDetailsInteractor.swift */; };
+		707922D026631251007BBB54 /* PostDetailsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922C626631251007BBB54 /* PostDetailsRouterInput.swift */; };
+		707922D126631251007BBB54 /* PostDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707922C726631251007BBB54 /* PostDetailsRouter.swift */; };
 		A0A0C31DC1F7EFA6803E31C2 /* Pods_PreTestTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EA8221C9FE9EA49F711410 /* Pods_PreTestTask.framework */; };
 		D9B96C439AB5531669036741 /* Pods_PreTestTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70813679199065541104B761 /* Pods_PreTestTaskTests.framework */; };
 /* End PBXBuildFile section */
@@ -83,6 +93,16 @@
 		707922A926631107007BBB54 /* PostFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFactory.swift; sourceTree = "<group>"; };
 		707922AB26631107007BBB54 /* PostRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRouterInput.swift; sourceTree = "<group>"; };
 		707922AC26631107007BBB54 /* PostRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRouter.swift; sourceTree = "<group>"; };
+		707922BA26631251007BBB54 /* PostDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsPresenter.swift; sourceTree = "<group>"; };
+		707922BB26631251007BBB54 /* PostDetails.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = PostDetails.strings; sourceTree = "<group>"; };
+		707922BC26631251007BBB54 /* PostDetailsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsFactory.swift; sourceTree = "<group>"; };
+		707922BF26631251007BBB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PostDetails.storyboard; sourceTree = "<group>"; };
+		707922C026631251007BBB54 /* PostDetailsIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsIO.swift; sourceTree = "<group>"; };
+		707922C126631251007BBB54 /* PostDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsVC.swift; sourceTree = "<group>"; };
+		707922C326631251007BBB54 /* PostDetailsInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsInteractorIO.swift; sourceTree = "<group>"; };
+		707922C426631251007BBB54 /* PostDetailsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsInteractor.swift; sourceTree = "<group>"; };
+		707922C626631251007BBB54 /* PostDetailsRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsRouterInput.swift; sourceTree = "<group>"; };
+		707922C726631251007BBB54 /* PostDetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsRouter.swift; sourceTree = "<group>"; };
 		70813679199065541104B761 /* Pods_PreTestTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreTestTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F8C194A316F8EDB5E61556 /* Pods-PreTestTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreTestTaskTests.release.xcconfig"; path = "Target Support Files/Pods-PreTestTaskTests/Pods-PreTestTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		CEA1D4A4D658AC48FB3B9A85 /* Pods-PreTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreTestTask.release.xcconfig"; path = "Target Support Files/Pods-PreTestTask/Pods-PreTestTask.release.xcconfig"; sourceTree = "<group>"; };
@@ -210,6 +230,7 @@
 		7079229A266310FB007BBB54 /* PostDetails */ = {
 			isa = PBXGroup;
 			children = (
+				707922B826631251007BBB54 /* UserDetails */,
 				7079229B26631107007BBB54 /* Post */,
 			);
 			path = PostDetails;
@@ -269,6 +290,55 @@
 			children = (
 				707922AB26631107007BBB54 /* PostRouterInput.swift */,
 				707922AC26631107007BBB54 /* PostRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		707922B826631251007BBB54 /* UserDetails */ = {
+			isa = PBXGroup;
+			children = (
+				707922B926631251007BBB54 /* Presenter */,
+				707922BB26631251007BBB54 /* PostDetails.strings */,
+				707922BC26631251007BBB54 /* PostDetailsFactory.swift */,
+				707922BD26631251007BBB54 /* View */,
+				707922C226631251007BBB54 /* Interactor */,
+				707922C526631251007BBB54 /* Router */,
+			);
+			path = UserDetails;
+			sourceTree = "<group>";
+		};
+		707922B926631251007BBB54 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				707922BA26631251007BBB54 /* PostDetailsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		707922BD26631251007BBB54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				707922BE26631251007BBB54 /* PostDetails.storyboard */,
+				707922C026631251007BBB54 /* PostDetailsIO.swift */,
+				707922C126631251007BBB54 /* PostDetailsVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		707922C226631251007BBB54 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				707922C326631251007BBB54 /* PostDetailsInteractorIO.swift */,
+				707922C426631251007BBB54 /* PostDetailsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		707922C526631251007BBB54 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				707922C626631251007BBB54 /* PostDetailsRouterInput.swift */,
+				707922C726631251007BBB54 /* PostDetailsRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -400,9 +470,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				707922AF26631107007BBB54 /* Post.storyboard in Resources */,
+				707922CB26631251007BBB54 /* PostDetails.storyboard in Resources */,
 				707920E126630226007BBB54 /* LaunchScreen.storyboard in Resources */,
 				707920DE26630226007BBB54 /* Assets.xcassets in Resources */,
 				707922AD26631107007BBB54 /* Post.strings in Resources */,
+				707922C926631251007BBB54 /* PostDetails.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,21 +564,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				707922B026631107007BBB54 /* PostTableCell.swift in Sources */,
+				707922D126631251007BBB54 /* PostDetailsRouter.swift in Sources */,
 				707921142663034E007BBB54 /* AlamofireHelper.swift in Sources */,
 				707920D526630224007BBB54 /* AppDelegate.swift in Sources */,
 				707922AE26631107007BBB54 /* PostPresenter.swift in Sources */,
 				707922B426631107007BBB54 /* PostInteractorIO.swift in Sources */,
 				707921132663034E007BBB54 /* Constant.swift in Sources */,
+				707922CF26631251007BBB54 /* PostDetailsInteractor.swift in Sources */,
 				7079210E2663034E007BBB54 /* Address.swift in Sources */,
+				707922CE26631251007BBB54 /* PostDetailsInteractorIO.swift in Sources */,
 				707922B626631107007BBB54 /* PostRouterInput.swift in Sources */,
 				707921102663034E007BBB54 /* Post.swift in Sources */,
+				707922CA26631251007BBB54 /* PostDetailsFactory.swift in Sources */,
+				707922C826631251007BBB54 /* PostDetailsPresenter.swift in Sources */,
 				707921112663034E007BBB54 /* Company.swift in Sources */,
 				7079210F2663034E007BBB54 /* User.swift in Sources */,
+				707922CD26631251007BBB54 /* PostDetailsVC.swift in Sources */,
 				707922B226631107007BBB54 /* PostIO.swift in Sources */,
 				707922B726631107007BBB54 /* PostRouter.swift in Sources */,
 				707922B326631107007BBB54 /* PostInteractor.swift in Sources */,
 				707922B526631107007BBB54 /* PostFactory.swift in Sources */,
+				707922D026631251007BBB54 /* PostDetailsRouterInput.swift in Sources */,
 				707921122663034E007BBB54 /* Geo.swift in Sources */,
+				707922CC26631251007BBB54 /* PostDetailsIO.swift in Sources */,
 				707922B126631107007BBB54 /* PostVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,6 +637,14 @@
 				707922A126631107007BBB54 /* Base */,
 			);
 			name = Post.storyboard;
+			sourceTree = "<group>";
+		};
+		707922BE26631251007BBB54 /* PostDetails.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707922BF26631251007BBB54 /* Base */,
+			);
+			name = PostDetails.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
