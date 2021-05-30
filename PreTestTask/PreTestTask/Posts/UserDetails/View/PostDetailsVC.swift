@@ -63,6 +63,7 @@ extension PostDetailsVC : UITableViewDelegate, UITableViewDataSource {
             return cell
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "UserDetailCell", for: indexPath)
+            cell.accessoryType = UITableViewCell.AccessoryType.none
             switch Usercell(rawValue: indexPath.row) {
             case .name:
                 cell.textLabel?.text = Usercell.userCellTitle(.name)()

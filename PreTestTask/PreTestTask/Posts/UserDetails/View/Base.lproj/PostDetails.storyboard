@@ -19,19 +19,19 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9YI-ZJ-sW7">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KE1-ES-zyl">
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KE1-ES-zyl">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostDetailCell" textLabel="9Sf-qa-FjQ" detailTextLabel="hJJ-T6-Pqj" style="IBUITableViewCellStyleSubtitle" id="4Wd-Y2-j1e">
-                                                <rect key="frame" x="0.0" y="24.5" width="414" height="55.5"/>
+                                                <rect key="frame" x="0.0" y="24.5" width="414" height="56"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4Wd-Y2-j1e" id="1br-zO-s52">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="55.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Sf-qa-FjQ">
-                                                            <rect key="frame" x="20" y="10" width="33" height="20.5"/>
+                                                            <rect key="frame" x="20" y="9" width="33" height="20.5"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
@@ -48,7 +48,7 @@
                                                 </tableViewCellContentView>
                                             </tableViewCell>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="UserDetailCell" textLabel="LvB-CN-4lo" detailTextLabel="LKO-J3-PlQ" rowHeight="87" style="IBUITableViewCellStyleValue1" id="xMM-bm-hDk">
-                                                <rect key="frame" x="0.0" y="80" width="414" height="87"/>
+                                                <rect key="frame" x="0.0" y="80.5" width="414" height="87"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xMM-bm-hDk" id="WFj-f3-6DG">
                                                     <rect key="frame" x="0.0" y="0.0" width="384.5" height="87"/>
