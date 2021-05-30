@@ -198,6 +198,7 @@
 		707921042663034E007BBB54 /* WebServices */ = {
 			isa = PBXGroup;
 			children = (
+				707922B826631251007BBB54 /* UserDetails */,
 				707921052663034E007BBB54 /* Models */,
 				7079210B2663034E007BBB54 /* Services */,
 			);
@@ -228,7 +229,6 @@
 		70792299266310EF007BBB54 /* Posts */ = {
 			isa = PBXGroup;
 			children = (
-				707922B826631251007BBB54 /* UserDetails */,
 				7079229B26631107007BBB54 /* Post */,
 			);
 			path = Posts;
