@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7042D7242671D0A600979361 /* CommentsDetailsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042D7172671D0A600979361 /* CommentsDetailsFactory.swift */; };
+		7042D7252671D0A600979361 /* CommentsDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042D7182671D0A600979361 /* CommentsDetailsPresenter.swift */; };
+		7042D7262671D0A600979361 /* CommentsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042D71A2671D0A600979361 /* CommentsDetailsViewController.swift */; };
+		7042D7272671D0A600979361 /* CommentsDetailsIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042D71B2671D0A600979361 /* CommentsDetailsIO.swift */; };
+		7042D7282671D0A600979361 /* CommentsDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7042D71C2671D0A600979361 /* CommentsDetails.storyboard */; };
+		7042D7292671D0A600979361 /* CommentsDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042D71D2671D0A600979361 /* CommentsDetailTableViewCell.swift */; };
+		7042D72A2671D0A600979361 /* CommentsDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042D71F2671D0A600979361 /* CommentsDetailsInteractor.swift */; };
+		7042D72B2671D0A600979361 /* CommentsDetailsInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042D7202671D0A600979361 /* CommentsDetailsInteractorIO.swift */; };
+		7042D72C2671D0A600979361 /* CommentsDetailsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042D7222671D0A600979361 /* CommentsDetailsRouterInput.swift */; };
+		7042D72D2671D0A600979361 /* CommentsDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042D7232671D0A600979361 /* CommentsDetailsRouter.swift */; };
+		7042D72F2671D0D300979361 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042D72E2671D0D300979361 /* Comments.swift */; };
 		707920D526630224007BBB54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707920D426630224007BBB54 /* AppDelegate.swift */; };
 		707920DE26630226007BBB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707920DD26630226007BBB54 /* Assets.xcassets */; };
 		707920E126630226007BBB54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707920DF26630226007BBB54 /* LaunchScreen.storyboard */; };
@@ -67,6 +78,17 @@
 /* Begin PBXFileReference section */
 		4C75F2138DFC3065A8D659A9 /* Pods-PreTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreTestTask.debug.xcconfig"; path = "Target Support Files/Pods-PreTestTask/Pods-PreTestTask.debug.xcconfig"; sourceTree = "<group>"; };
 		66EA8221C9FE9EA49F711410 /* Pods_PreTestTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreTestTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7042D7172671D0A600979361 /* CommentsDetailsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsDetailsFactory.swift; sourceTree = "<group>"; };
+		7042D7182671D0A600979361 /* CommentsDetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsDetailsPresenter.swift; sourceTree = "<group>"; };
+		7042D71A2671D0A600979361 /* CommentsDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsDetailsViewController.swift; sourceTree = "<group>"; };
+		7042D71B2671D0A600979361 /* CommentsDetailsIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsDetailsIO.swift; sourceTree = "<group>"; };
+		7042D71C2671D0A600979361 /* CommentsDetails.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CommentsDetails.storyboard; sourceTree = "<group>"; };
+		7042D71D2671D0A600979361 /* CommentsDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsDetailTableViewCell.swift; sourceTree = "<group>"; };
+		7042D71F2671D0A600979361 /* CommentsDetailsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsDetailsInteractor.swift; sourceTree = "<group>"; };
+		7042D7202671D0A600979361 /* CommentsDetailsInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsDetailsInteractorIO.swift; sourceTree = "<group>"; };
+		7042D7222671D0A600979361 /* CommentsDetailsRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsDetailsRouterInput.swift; sourceTree = "<group>"; };
+		7042D7232671D0A600979361 /* CommentsDetailsRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsDetailsRouter.swift; sourceTree = "<group>"; };
+		7042D72E2671D0D300979361 /* Comments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
 		707920D126630224007BBB54 /* PreTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		707920D426630224007BBB54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		707920DD26630226007BBB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -142,6 +164,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7042D7152671D0A600979361 /* CommentsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				7042D7162671D0A600979361 /* Presenter */,
+				7042D7192671D0A600979361 /* View */,
+				7042D71E2671D0A600979361 /* Interactor */,
+				7042D7212671D0A600979361 /* Router */,
+			);
+			path = CommentsDetails;
+			sourceTree = "<group>";
+		};
+		7042D7162671D0A600979361 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7042D7172671D0A600979361 /* CommentsDetailsFactory.swift */,
+				7042D7182671D0A600979361 /* CommentsDetailsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7042D7192671D0A600979361 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7042D71A2671D0A600979361 /* CommentsDetailsViewController.swift */,
+				7042D71B2671D0A600979361 /* CommentsDetailsIO.swift */,
+				7042D71C2671D0A600979361 /* CommentsDetails.storyboard */,
+				7042D71D2671D0A600979361 /* CommentsDetailTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7042D71E2671D0A600979361 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7042D71F2671D0A600979361 /* CommentsDetailsInteractor.swift */,
+				7042D7202671D0A600979361 /* CommentsDetailsInteractorIO.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7042D7212671D0A600979361 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7042D7222671D0A600979361 /* CommentsDetailsRouterInput.swift */,
+				7042D7232671D0A600979361 /* CommentsDetailsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		707920C826630224007BBB54 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				707921042663034E007BBB54 /* WebServices */,
+				7042D7152671D0A600979361 /* CommentsDetails */,
 				707922B826631251007BBB54 /* UserDetails */,
 				70792299266310EF007BBB54 /* Posts */,
 				707920DD26630226007BBB54 /* Assets.xcassets */,
@@ -216,6 +288,7 @@
 				707921082663034E007BBB54 /* Post.swift */,
 				707921092663034E007BBB54 /* Company.swift */,
 				7079210A2663034E007BBB54 /* Geo.swift */,
+				7042D72E2671D0D300979361 /* Comments.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -475,6 +548,7 @@
 				707920E126630226007BBB54 /* LaunchScreen.storyboard in Resources */,
 				70A912B926631EB30059F93E /* README.md in Resources */,
 				707920DE26630226007BBB54 /* Assets.xcassets in Resources */,
+				7042D7282671D0A600979361 /* CommentsDetails.storyboard in Resources */,
 				707922AD26631107007BBB54 /* Post.strings in Resources */,
 				707922C926631251007BBB54 /* PostDetails.strings in Resources */,
 			);
@@ -566,20 +640,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				707922B026631107007BBB54 /* PostTableCell.swift in Sources */,
+				7042D72A2671D0A600979361 /* CommentsDetailsInteractor.swift in Sources */,
 				707922D126631251007BBB54 /* PostDetailsRouter.swift in Sources */,
+				7042D7272671D0A600979361 /* CommentsDetailsIO.swift in Sources */,
 				707921142663034E007BBB54 /* AlamofireHelper.swift in Sources */,
 				707920D526630224007BBB54 /* AppDelegate.swift in Sources */,
 				707922AE26631107007BBB54 /* PostPresenter.swift in Sources */,
 				707922B426631107007BBB54 /* PostInteractorIO.swift in Sources */,
+				7042D72B2671D0A600979361 /* CommentsDetailsInteractorIO.swift in Sources */,
 				707921132663034E007BBB54 /* Constant.swift in Sources */,
 				707922CF26631251007BBB54 /* PostDetailsInteractor.swift in Sources */,
 				7079210E2663034E007BBB54 /* Address.swift in Sources */,
+				7042D72D2671D0A600979361 /* CommentsDetailsRouter.swift in Sources */,
 				707922CE26631251007BBB54 /* PostDetailsInteractorIO.swift in Sources */,
+				7042D7242671D0A600979361 /* CommentsDetailsFactory.swift in Sources */,
 				707922B626631107007BBB54 /* PostRouterInput.swift in Sources */,
+				7042D7292671D0A600979361 /* CommentsDetailTableViewCell.swift in Sources */,
 				707921102663034E007BBB54 /* Post.swift in Sources */,
 				707922CA26631251007BBB54 /* PostDetailsFactory.swift in Sources */,
 				707922C826631251007BBB54 /* PostDetailsPresenter.swift in Sources */,
 				707921112663034E007BBB54 /* Company.swift in Sources */,
+				7042D7262671D0A600979361 /* CommentsDetailsViewController.swift in Sources */,
+				7042D72C2671D0A600979361 /* CommentsDetailsRouterInput.swift in Sources */,
+				7042D7252671D0A600979361 /* CommentsDetailsPresenter.swift in Sources */,
 				7079210F2663034E007BBB54 /* User.swift in Sources */,
 				707922CD26631251007BBB54 /* PostDetailsVC.swift in Sources */,
 				707922B226631107007BBB54 /* PostIO.swift in Sources */,
@@ -587,6 +670,7 @@
 				707922B326631107007BBB54 /* PostInteractor.swift in Sources */,
 				707922B526631107007BBB54 /* PostFactory.swift in Sources */,
 				707922D026631251007BBB54 /* PostDetailsRouterInput.swift in Sources */,
+				7042D72F2671D0D300979361 /* Comments.swift in Sources */,
 				707921122663034E007BBB54 /* Geo.swift in Sources */,
 				707922CC26631251007BBB54 /* PostDetailsIO.swift in Sources */,
 				707922B126631107007BBB54 /* PostVC.swift in Sources */,

@@ -16,8 +16,11 @@ class PostRouter {
 //MARK:- Router Input Method
 extension PostRouter : PostRouterInput {
     func openPostDetailsModule(post: Post?) {
-        //Navigate
-        let vc = PostDetailsFactory.shared.createModule(post: post)
+//        //Navigate
+//        let vc = PostDetailsFactory.shared.createModule(post: post)
+//        self.viewController?.navigationController?.pushViewController(vc, animated: true)
+        //Navigate to comments:
+        let vc = CommentsDetailsFactory.shared.createModule(posts: post)
         self.viewController?.navigationController?.pushViewController(vc, animated: true)
     }
 }

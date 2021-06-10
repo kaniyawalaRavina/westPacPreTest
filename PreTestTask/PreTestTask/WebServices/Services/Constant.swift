@@ -21,7 +21,19 @@ enum PostDeailsSection : Int , CaseIterable{
         }
     }
 }
-
+enum CommentsDeailsSection : Int , CaseIterable{
+    case PostCommentsDetails
+    case CommentsDetails
+    
+    func sectionTitle() -> String {
+        switch self {
+        case .PostCommentsDetails:
+            return "Post Detail"
+        case .CommentsDetails:
+            return "Comments Detail"
+        }
+    }
+}
 enum Usercell: Int, CaseIterable {
     case name
     case username

@@ -22,7 +22,7 @@ class AlamofireHelper {
             switch response.result {
             case .success:
                 #if DEBUG
-//                print("Str-> \(response.result.value ?? "")")
+                print("Str-> \(response.result.value ?? "")")
                 #endif
                 if response.response?.statusCode == 401 {
                     var errStr = ""
